@@ -11,6 +11,6 @@ de la estructura y el proceso.
 
 ### Capturas de pantalla
 
-![Principal View](principal.png"Principal View")
+![Principal View](principal.png "Principal View")
 
-![Scroll View](scrollview.png"Scroll View")
+![Scroll View](scrollview.png "Scroll View")
