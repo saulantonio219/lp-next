@@ -21,7 +21,7 @@ const Layout = dynamic(
 );
 export default function Home() {
   return (
-    <Suspense fallback={`Loading...`}>
+    <Suspense fallback={<h1 className="text-white">Loading...</h1>}>
       <Layout>
         <section className="h-screen w-screen grid place-content-center">
           <motion.figure
@@ -39,13 +39,13 @@ export default function Home() {
 
         <section className="h-screen w-screen">
           <h1 className="text-white text-center">Experiencia de trabajo</h1>
-          <article className="block  sm:flex sm:justify-around sm:items-center h-full">
-            <div className="h-60 w-40 border rounded-lg bg-green-500">
+          <article className="block  sm:flex sm:justify-around sm:items-center h-full px-5">
+            <div className="h-60 w-auto border rounded-lg bg-green-500">
               <motion.figure className="my-6 border rounded-full">
                 <Image src={Avatar} alt="Person" />
               </motion.figure>
             </div>
-            <div className="h-60 w-40 border rounded-lg bg-green-500">
+            <div className="h-60 w-auto  border rounded-lg bg-green-500">
               <motion.figure className="my-6 border rounded-full">
                 <Image src={Avatar} alt="Person" />
               </motion.figure>
